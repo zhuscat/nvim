@@ -52,6 +52,7 @@ require('plugin-config.mason-lspconfig')
 require('plugin-config.lspsaga')
 require('plugin-config.autocmp')
 require('plugin-config.lualine')
+require('plugin-config.term')
 
 vim.cmd[[colorscheme nord]]
 
