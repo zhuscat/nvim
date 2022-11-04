@@ -52,3 +52,4 @@ keymap("n", "<A-d>", "<cmd>Lspsaga open_floaterm<CR>", { silent = true })
 -- keymap("n", "<A-d>", "<cmd>Lspsaga open_floaterm lazygit<CR>", { silent = true })
 -- close floaterm
 keymap("t", "<A-d>", [[<C-\><C-n><cmd>Lspsaga close_floaterm<CR>]], { silent = true })
+

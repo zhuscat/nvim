@@ -10,6 +10,8 @@ return require('packer').startup(function(use)
         commit = "78f5f001709b5b321a35dcdc44549ef93185e024",
     }
 
+    use 'folke/tokyonight.nvim'
+
     -- 侧边栏菜单
     use {
         'nvim-tree/nvim-tree.lua',

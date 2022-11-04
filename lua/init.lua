@@ -54,5 +54,5 @@ require('plugin-config.autocmp')
 require('plugin-config.lualine')
 require('plugin-config.term')
 require('plugin-config.telescope')
-vim.cmd[[colorscheme nord]]
+vim.cmd[[colorscheme tokyonight-night]]
 
