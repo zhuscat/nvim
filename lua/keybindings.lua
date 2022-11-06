@@ -45,11 +45,9 @@ keymap("n","<leader>o", "<cmd>LSoutlineToggle<CR>",{ silent = true })
 -- Hover Doc
 keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>", { silent = true })
 
--- Float terminal
-keymap("n", "<A-d>", "<cmd>Lspsaga open_floaterm<CR>", { silent = true })
--- if you want pass somc cli command into terminal you can do like this
--- open lazygit in lspsaga float terminal
--- keymap("n", "<A-d>", "<cmd>Lspsaga open_floaterm lazygit<CR>", { silent = true })
--- close floaterm
-keymap("t", "<A-d>", [[<C-\><C-n><cmd>Lspsaga close_floaterm<CR>]], { silent = true })
-
+keymap("n", "<leader>b1", "<cmd>BufferLineGoToBuffer 1<CR>")
+keymap("n", "<leader>b2", "<cmd>BufferLineGoToBuffer 2<CR>")
+keymap("n", "<leader>b3", "<cmd>BufferLineGoToBuffer 3<CR>")
+keymap("n", "<leader>b4", "<cmd>BufferLineGoToBuffer 4<CR>")
+keymap("n", "<leader>b5", "<cmd>BufferLineGoToBuffer 5<CR>")
+keymap("n", "<leader>b6", "<cmd>BufferLineGoToBuffer 6<CR>")
