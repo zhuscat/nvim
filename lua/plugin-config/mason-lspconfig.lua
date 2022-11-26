@@ -15,3 +15,4 @@ require('lspconfig').tsserver.setup {}
 require('lspconfig').volar.setup {}
 require('lspconfig').clangd.setup {}
 require('lspconfig').pyright.setup {}
+require('lspconfig').gopls.setup {}
